@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'GHTestForPodTemplate_Example' do
+  pod 'GHTestForPodTemplate', :path => '../'
+end
+
+target 'GHTestForPodTemplate_Tests' do
+	pod 'GHTestForPodTemplate', :path => '../'
+    pod 'FBSnapshotTestCase'
+end
