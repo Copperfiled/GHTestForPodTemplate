@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - GHTestForPodTemplate (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GHTestForPodTemplate (from `../`)
+
+EXTERNAL SOURCES:
+  GHTestForPodTemplate:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  GHTestForPodTemplate: 11724486116c6ef3a7c725251b8c87afdc2b8344
+
+COCOAPODS: 0.39.0
